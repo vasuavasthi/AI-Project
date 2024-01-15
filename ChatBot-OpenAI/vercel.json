@@ -1,1 +1,11 @@
+{
+  "functions": "app",
+  "routes": [
+    { "src": "/app/(.*)", "dest": "/app/$1" },
+    { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/(.*)", "dest": "/templates/$1" }
+  ]
+}
+
+
 
