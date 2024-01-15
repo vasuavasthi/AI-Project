@@ -23,4 +23,6 @@ def api():
     ]
     )
     return {'content': completion.choices[0].message.content}
-
+from app import app
+if __name__=="__main__":
+    app.run(debug=True)
