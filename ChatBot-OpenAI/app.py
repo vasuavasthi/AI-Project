@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-client=OpenAI(api_key='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')
+client=OpenAI(api_key='YOUR API KEY')
 
 # Define the default route to return the index.html file
 @app.route("/")
